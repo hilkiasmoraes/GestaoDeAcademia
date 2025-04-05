@@ -1,7 +1,7 @@
 package models;
 
 abstract class Pessoa {
-    protected Long IdPessoa;
+    //protected Long IdPessoa;
     protected String nomePessoa;
     protected int idadePessoa;
 
