@@ -11,18 +11,22 @@ public class Main {
         Cliente clienteSenai02 = new Cliente("Maria", 18, "Premium");
 
 
-//        Instrutor instrutorSenai = new Instrutor("João", 35, "Musculação");
-//        Instrutor instrutorSenai01 = new Instrutor("Eliana", 29, "Ginástica");
-//        Instrutor instrutorSenai02 = new Instrutor("Carlos", 22, "Musculação");
+        Instrutor instrutorSenai = new Instrutor("João", 35, "Musculação");
+        Instrutor instrutorSenai01 = new Instrutor("Eliana", 29, "Ginástica");
+        Instrutor instrutorSenai02 = new Instrutor("Carlos", 22, "Musculação");
+
+        System.out.println("------------------------------------------------------------------------------------");
 
         academiaSenai.adicionarPessoa(clienteSenai);
         academiaSenai.adicionarPessoa(clienteSenai01);
         academiaSenai.adicionarPessoa(clienteSenai02);
 
-//        academiaSenai.adicionarPessoa(instrutorSenai);
-//        academiaSenai.adicionarPessoa(instrutorSenai01);
-//        academiaSenai.adicionarPessoa(instrutorSenai02);
+        academiaSenai.adicionarPessoa(instrutorSenai);
+        academiaSenai.adicionarPessoa(instrutorSenai01);
+        academiaSenai.adicionarPessoa(instrutorSenai02);
 
         academiaSenai.listarPessoas();
+
+        System.out.println("------------------------------------------------------------------------------------");
     }
 }
